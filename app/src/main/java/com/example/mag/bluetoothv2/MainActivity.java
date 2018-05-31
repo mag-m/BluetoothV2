@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     /**
-     Dette er nødvendigt hvis man bruger nyere android end lollipop
+     Dette er nødvendigt hvis man bruger nyere android end lollipop.
      */
     private void checkBTPermissions() {
         if(Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP){
